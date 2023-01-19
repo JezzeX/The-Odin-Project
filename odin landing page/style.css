@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+/*Top*/
+
+header {
+  background-color: #1f2937;
+  padding: 20px 250px;
+  padding-bottom: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+header > nav > p {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+/***********************************************************************************************************/
+/*Hero section */
+.hero--section {
+  display: flex;
+  background-color: #1f2937;
+  padding: 10px 250px;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.hero {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  align-self: center;
+}
+
+.hero > h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero--button {
+  margin-top: 10px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.image--placeholder {
+  align-self: center;
+  background-color: antiquewhite;
+  width: 500px;
+  height: 250px;
+}
+
+/****************************************************************************************************************/
+/*Random information section*/
+.random--information {
+  padding: 10px 350px;
+}
+h3 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px 0 60px 0;
+}
+
+.boxes--cont {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.content > p {
+  color: gray;
+  text-align: center;
+}
+
+/******************************************************************************************************************/
+/*quote section*/
+.inspiring--quote {
+  margin-top: 80px;
+  background-color: #e5e7eb;
+  padding: 100px 350px;
+}
+
+.quote {
+  color: #465c7a;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.quote--author {
+  color: #1f2937;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/******************************************************************************************************************/
+/*call to action*/
+.cta-- {
+  padding: 100px 250px;
+}
+
+.cta--blue {
+  padding: 50px 100px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.cta--button {
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+}
+
+#timetosub {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/******************************************************************************************************************/
+/*Footer*/
+
+footer {
+  background-color: #1f2937;
+  padding: 25px 0;
+  text-align: center;
+}

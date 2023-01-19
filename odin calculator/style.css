@@ -1,0 +1,38 @@
+body {
+  font-family: serif;
+}
+
+.calculator {
+  margin: auto;
+  max-width: 250px;
+  padding: 100px;
+  border: 2px solid black;
+  background-color: rgb(138, 128, 114);
+}
+
+.display {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  max-width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid black;
+  text-align: end;
+
+  font-size: 22px;
+}
+
+.buttons {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+button {
+  justify-self: center;
+  width: 50px;
+  height: 50px;
+}

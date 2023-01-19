@@ -1,0 +1,107 @@
+* {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../resources/fonts/Roboto.woff2);
+}
+
+@font-face {
+  font-family: "Norse";
+  src: url(../resources/fonts/NorseBold.woff2);
+}
+
+
+.body--div {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1.5fr 3fr;
+}
+
+
+.image--div {
+  background-image: url(../resources/img/pexels-lisa-fotios-4511373.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-content: center;
+}
+
+.image--div>p {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Norse";
+  text-align: center;
+  color: #ffffff;
+  font-size: 72px;
+}
+
+
+.form--div {
+  background-color: rgb(245, 244, 244);
+  justify-content: center;
+}
+
+.form--text {
+  padding: 100px 300px 50px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form {
+  background-color: white;
+  padding: 50px 300px 50px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form>p {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+
+.form--details {
+  display: flex;
+  gap: 200px;
+}
+
+.form--details>div>input {
+  margin-bottom: 20px;
+}
+
+.form--details>div>label {
+  font-variant: small-caps;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.create--login>button {
+  margin: 30px 0 25px 50px;
+  font-size: 16px;
+  background-color: #167373;
+  padding: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 16px;
+  border: 0;
+}
+
+.create--login>p {
+  margin-left: 50px;
+}
+
+.create--login>p>b {
+  color: #167373;
+  ;
+}
+
+input:focus {
+  border: 4px solid #167373;
+}
