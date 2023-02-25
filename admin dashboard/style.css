@@ -1,0 +1,197 @@
+* {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+}
+
+.container {
+  font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #1992d4;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: auto auto auto;
+  padding: 30px 30px 0px 30px;
+  align-content: center;
+}
+
+.sidebar>p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 50px;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.sidebar>p>i {
+  padding-right: 10px;
+}
+
+
+
+.sidebar>ul {
+  display: grid;
+  padding-bottom: 100px;
+  row-gap: 20px;
+}
+
+ul>li {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.2fr 1fr;
+}
+
+.mainbar {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.header-first-row {
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  padding-left: 1em;
+  gap: 20px;
+}
+
+.bell {
+  display: flex;
+  justify-content: center;
+}
+
+.user {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+input {
+  border-radius: 10px;
+  width: 100%;
+  background-color: #efeff5;
+  border: none;
+}
+
+.header-second-row {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.welcome-user {
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  background-color: #1992d4;
+  padding: 1em 2em;
+  color: white;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: none;
+}
+
+.main {
+  background-color: #efeff5;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1rem;
+  gap: 20px 20px;
+}
+
+.project-container {
+  padding: 2em;
+}
+
+.project-container>h1 {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.project {
+  background-color: #ffffff;
+  border-left: 10px solid orange;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.project>h2 {
+  font-family: "Roboto";
+  font-size: 1.2rem;
+}
+
+.button-div {
+  padding-top: 8em;
+}
+
+.side-main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 2em 3em 0 0;
+}
+
+.side-main>div>h1 {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.info-box,
+.announce {
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 1rem;
+  padding: 3.5em 3.5em 1em 3.5em;
+}
+
+.announcements {
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid black;
+}
+
+.trending {
+  padding-top: 3em;
+}
+
+.info-box {
+  display: grid;
+  font-size: 1.2rem;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
